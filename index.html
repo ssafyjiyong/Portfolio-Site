@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 구글 폰트 적용 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+  <!-- 부트스트랩 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>개발자 김지용</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-3 hide">
+        <!-- 메뉴 -->
+        <nav class="menu row">
+          <a href="#about"><img class="img mb-3 p-0 pt-4" src="imgs/business-man.gif" alt="profile"></a>
+          <a href="#about">
+            <h5 class="align-center pb-2">개발자<br>김지용</h5>
+          </a>
+          <a class="my-2 col-1 align-center menu-list fs-4" href="#career">Career</a>
+          <a class="my-2 col-1 align-center menu-list fs-4" href="#skills">Skills</a>
+          <a class="my-2 col-1 align-center menu-list fs-4" href="#project">Project</a>
+          <a class="my-2 col-1 align-center menu-list fs-4" href="#archiving">Archiving</a>
+          <a class="my-2 col-1 align-center menu-list fs-4" href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div class="col-sm-9">
+        <div class="row">
+          <!-- 나의 소개 -->
+          <h1 id="about" class="fw-bold text-primary-emphasis">ABOUT</h1>
+          <main class="about col-12">
+            <h2 id="no-provided">
+              높이가 충분하지 않습니다. 화면을 길게 늘려주세요.<br>(876px 이상)
+            </h2>
+            <div class="row">
+              <div id="hide-too-high" class="d-flex justify-content-end col-12">
+                <a href="#"><img class="sns m-3" src="imgs/instagram.png" alt="instagram"></a>
+                <a href="#"><img class="sns m-3" src="imgs/facebook.png" alt="facebook"></a>
+                <a href="#"><img class="sns m-3" src="imgs/twitter.png" alt="twitter"></a>
+                <a href="#"><img class="sns m-3 me-5" src="imgs/youtube.png" alt="youtube"></a>
+              </div>
+            </div>
+
+            <div id="hide-too-high" class="d-flex">
+              <img class="profile m-4 mt-0" src="imgs/moving-cat.gif" alt="profile">
+              <span class="d-flex justify-content-center align-items-center lg-font">
+                안녕하세요!<br>
+                제 이름은 김지용입니다. 저는 노란색을 좋아합니다.
+                지금 저는 자기소개 페이지 WEB 만들고 있습니다.
+                아래 스킬은 사실 지금은 못하지만 노력중입니다.
+                고로 아래 내용은 100% 거짓말은 아니랍니다.
+              </span>
+            </div>
+          </main>
+     
+          <!-- 커리어 -->
+          <h1 id="career" class="fw-bold text-primary-emphasis mt-3">CAREER</h1>
+          <section class="career col-12">
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="imgs/pyeongchang.jpg" class="d-block w-100" alt="pyeongchang">
+                  <div class="carousel-caption d-none d-md-block bg-white bg-opacity-50 rounded-pill">
+                    <h5 class="text-primary-emphasis">2018 평창동계올림픽<br>리더 자원봉사자 활동</h5>
+                    <p class="text-primary fs-4 fw-bold">2018.12 - 2019.02 </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs/kotra.jpg" class="d-block w-100" alt="kotra">
+                  <div class="carousel-caption d-none d-md-block bg-white bg-opacity-50 rounded-pill">
+                    <h5 class="text-primary-emphasis">한국무역투자진흥공사<br>외국인투자유치부서 인턴</h5>
+                    <p class="text-primary fs-4 fw-bold">2020.05 - 2020.10</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs/willbes.jpg" class="d-block w-100" alt="willbes">
+                  <div class="carousel-caption d-none d-md-block bg-white bg-opacity-50 rounded-pill">
+                    <h5 class="text-primary-emphasis">The Willbes Dominicana<br>해외영업원 근무</h5>
+                    <p class="text-primary fs-4 fw-bold">2021.03 - 2023.06</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+
+          <!-- 기술스택 -->
+          <h1 id="skills" class="fw-bold text-primary-emphasis mt-3">SKILLS</h1>
+          <section id="skills" class="skills col-12">
+
+            <div class="row border-cus">
+              <div class="d-flex flex-column col-3 px-0 align-items-center">
+                <span class="fs-4 fw-bold text-primary">Frontend</span>
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/html_css_js.png" alt="html_css_js">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/es6.png" alt="es6">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/vuejs.png" alt="vuejs">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/reactjs.png" alt="reactjs">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/svelte.png" alt="svelte">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/nextjs.png" alt="nextjs">
+              </div>
+
+              <div class="d-flex flex-column col-3 px-0 align-items-center">
+                <span class="fs-4 fw-bold text-primary">Backend</span>
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/django.png" alt="django">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/spring.png" alt="spring">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/nodejs.png" alt="nodejs">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/spring-boot.png" alt="spring-boot">
+              </div>
+
+              <div class="d-flex flex-column col-3 px-0 align-items-center">
+                <span class="fs-4 fw-bold text-primary">Database</span>
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/mysql.png" alt="mysql">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/mariadb.png" alt="mariadb">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/postgresql.png" alt="postgresql">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/sqlite.png" alt="sqlite">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/mongodb.png" alt="mongodb">
+              </div>
+
+              <div class="d-flex flex-column col-3 px-0 align-items-center">
+                <span class="fs-4 fw-bold text-primary">Etc</span>
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/aws.png" alt="aws">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/linux.png" alt="linux">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/git.png" alt="git">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/typescript.png" alt="typescript">
+                <img id="stack" class="m-1 my-2" src="imgs/skills-icon/figma.png" alt="figma">
+              </div>
+            </div>
+
+          </section>
+
+          <!-- 프로젝트 -->
+          <h1 id="project" class="fw-bold text-primary-emphasis mt-3">PROJECT</h1>
+          <section class="project col-12">
+            <div id="carouselExampleCaption" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaption" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaption" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaption" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="imgs/financial.gif" class="d-block w-100" alt="financial">
+                  <div class="carousel-caption d-none d-md-block bg-white bg-opacity-50 rounded-pill">
+                    <h5 class="text-danger-emphasis">SSAFY 프로젝트<br>금융 상품 비교하기</h5>
+                    <p class="text-danger fs-4 fw-bold">2023.09 - 2023.11 </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs/movie.gif" class="d-block w-100" alt="movie">
+                  <div class="carousel-caption d-none d-md-block bg-white bg-opacity-50 rounded-pill">
+                    <h5 class="text-danger-emphasis-emphasis">SSAFY 프로젝트<br>영화 비교·추천하기</h5>
+                    <p class="text-danger fs-4 fw-bold">2024.01 - 2024.03</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs/enviroment.jpg" class="d-block w-100" alt="enviroment">
+                  <div class="carousel-caption d-none d-md-block bg-white bg-opacity-50 rounded-pill">
+                    <h5 class="text-danger-emphasis-emphasis">환경을 위한 WEB<br>The 아름다운 세상</h5>
+                    <p class="text-danger fs-4 fw-bold">2024.03 - 2024.05</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaption"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaption"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+
+          <!-- 자료저장소 -->
+          <h1 id="archiving" class="fw-bold text-primary-emphasis mt-3">ACHIVING</h1>
+          <section class="archiving col-12 d-flex flex-column justify-content-around align-items-center">
+
+                <div>
+                  <a href="https://github.com/ssafyjiyong"><img class="ach-img" src="imgs/github.jpg" alt="github"></a>
+                  <a href="https://github.com/ssafyjiyong"><span id="nono-provided" class="lg-font">저의 Git이 궁금하다면 클릭해보세요!</span></a>
+                </div>
+                <div>
+                  <a href="https://blog.naver.com/aop8021"><img class="ach-img" src="imgs/blog.png" alt="blog"></a>
+                  <a href="https://blog.naver.com/aop8021"><span id="nono-provided" class="lg-font">저의 Blog가 궁금하다면 클릭해보세요!</span></a>
+                </div>
+
+          </section>
+
+          <!-- 연락처 -->
+          <div id="contact" class="d-flex align-items-center mt-3">
+            <h1 id="contact col-12" class="fw-bold text-primary-emphasis">CONTACT</h1>
+          </div>
+          <section class="contact">
+            <hr>
+            <p class="my-3">궁금한 사항은 아래로 문의해주시거나, <br> 카카오톡으로 언제든 문의해주세요!</p>
+            <hr>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">이메일</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="이메일을 입력해주세요">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">문의사항</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"
+                placeholder="최대한 빠른 시일 내에 답변해드리겠습니다!"></textarea>
+            </div>
+            <div class="d-flex" style="justify-content: center;">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#user-submit-modal">
+                　　　문의하기　　　
+              </button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 바로문의하기 -->
+  <footer class="footer fs-5 fw-semibold z-3"><a href="https://open.kakao.com/o/grSbqTFf">카카오톡 문의하기</a></footer>
+
+  <!-- 문의완료 모달 -->
+  <div class="modal fade" id="user-submit-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title">접수 완료</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">문의가 접수되었습니다!<br>
+          빠른 시일 내에 답변드리겠습니다.</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            닫기
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 id="not-provided">
+    이 사이트는 너비 411px 사이즈 미만의 화면에서 서비스가 제공되지 않습니다.
+  </h2>
+
+  <!-- 부트스트랩 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
