@@ -33,8 +33,8 @@ HTML과 CSS를 활용해 포트폴리오 만든 자기소개 패이지
 ![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)                   
 
 ### Development
-![JavaScript](https://img.shields.io/badge/HTML5-F05032?style=for-the-badge&logo=HTML5&logoColor=white)
-![React](https://img.shields.io/badge/CSS-007ACC?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-F05032?style=for-the-badge&logo=HTML5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS-007ACC?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white)
 
 ## 하고싶은 말
