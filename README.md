@@ -36,3 +36,6 @@ HTML과 CSS를 활용해 포트폴리오 만든 자기소개 패이지
 ![JavaScript](https://img.shields.io/badge/HTML5-F05032?style=for-the-badge&logo=HTML5&logoColor=white)
 ![React](https://img.shields.io/badge/CSS-007ACC?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white)
+
+## 하고싶은 말
+▶ HTML과 CSS만으로는 원하는 퀄리티의 사이트 제작이 어렵다. 기능 구현에 한계가 있을 뿐더러 코드도 길어지고 가독성이나 유지보수 측면에서 비효율적이다. 추후 자바스크립트를 활용하여 다채로운 구성과 기능과 함께 리뉴얼 해야겠다.
