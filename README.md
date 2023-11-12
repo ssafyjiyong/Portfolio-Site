@@ -1,41 +1,55 @@
 # Portfolio Web Page
-> **개인 프로젝트** <br/> **개발기간: 2023.09 ~ 2023.09**
 
-## 프로젝트 소개
-HTML과 CSS를 활용해 포트폴리오 만든 자기소개 패이지
+## 📆 프로젝트 개요
 
-## 주요 기능
+- **프로젝트 명**: 개인 포트폴리오 웹사이트  
+- **개발 기간**: 2023년 9월 ~ 2023년 9월
+- **개발 환경**: HTML, CSS
+- **개발 목적**: 개인 프로젝트 수행력과 기술 역량을 보여줄 수 있는 포트폴리오 사이트 제작
 
-### 1️⃣ 네이게이션바를 이용한 화면 이동
-- 네이게이션바에 링크를 설정하여 화면 이동을 편리하게 설계
-- 상단의 이미지를 통해서도 홈화면 이동 가능
+## 🎯 프로젝트 주요 기능
 
-### 2️⃣ Carousel을 이용해 경력과 프로젝트 한눈에 파악 가능
-- 나열식이 아닌 캐러셀을 활용해서 지루하지 않도록 기능 구현
-- 정보 추가 되는 경우 유지보수가 용이하도록 코드 작성
+### 📐 반응형 웹 디자인
 
-### 3️⃣ 반응형 웹디자인
-- 사용 기기나 디스플레이 크기에 맞게 화면이 맞춤형으로 반응하도록 설정
+- 모바일, 태블릿, 데스크톱 등 다양한 기기에서 최적화된 레이아웃 제공  
+- 미디어 쿼리(Media Query)를 사용하여 기기 별로 다른 CSS 스타일 적용
 
-## 차별점
+### 🖥️ 인터랙티브한 UI/UX
 
-### ⭐️ Sticky Position을 활용한 문의하기 버튼 구현
-- Sticky Position으로 문의하기 버튼을 고정시켜 UX 향상
+- carousel을 활용한 프로젝트 소개
+- modal window를 사용한 contact form 구현
+- smooth scrolling으로 페이지 간 이동
 
-### ⭐️ Modal 기능
-- 문의하기에 Modal 기능을 추가하여 페이지 직관성 향상
+### ⚙️ 유지보수 용이성  
 
+- 코드의 모듈화와 들여쓰기를 통한 가독성 향상
+- 코드 내 주석 추가로 이해도 증대
+- carousel 및 modal 기능의 재사용성 확보
 
-## Stacks
-### Environment
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
-![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)                   
+## 💎 프로젝트 핵심 기능
 
-### Development
-![HTML5](https://img.shields.io/badge/HTML5-F05032?style=for-the-badge&logo=HTML5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS-007ACC?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white)
+### 📌 Sticky contact button
 
-## 하고싶은 말
-▶ HTML과 CSS만으로는 원하는 퀄리티의 사이트 제작이 어렵다. 기능 구현에 한계가 있을 뿐더러 코드도 길어지고 가독성이나 유지보수 측면에서 비효율적이다. 추후 자바스크립트를 활용하여 다채로운 구성과 기능과 함께 리뉴얼 해야겠다.
+- 사용자 편의성을 위해 하단에 고정된 문의하기 버튼 제공
+- Sticky position을 활용하여 스크롤 시에도 항상 노출
+
+### 💬 Interaction optimization
+
+- 모달 창을 통한 contact form 구현으로 페이지 전환 없이 사용자 응답 가능  
+- smooth scrolling으로 부드러운 페이지 이동 가능
+
+## ⚒️ 기술 스택
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=Visual%20Studio%20Code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)
+
+## 📝 회고 및 계획
+
+- HTML과 CSS로는 기능 구현에 한계가 있음
+- JavaScript를 활용해 보다 다양한 기능 개발 필요
+- UX/UI 개선을 위한 디자인 리뉴얼 계획 중  
+
+이번 프로젝트를 통해 HTML과 CSS 실력 향상과 반응형 웹 구현 능력을 기를 수 있었습니다. 앞으로 JavaScript 등을 학습하여 더욱 풍부한 기능과 UI를 가진 포트폴리오 사이트로 성장시키고자 합니다.
