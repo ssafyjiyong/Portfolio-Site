@@ -7,14 +7,14 @@
 [프로젝트 실행 화면](#프로젝트-실행-화면)\
 [회고 및 계획](#회고-및-계획)
 
-## 📆 프로젝트 개요
+## 프로젝트 개요
 
 - **프로젝트 명**: 개인 포트폴리오 웹사이트
 - **개발 기간**: 2023년 9월 ~ 2023년 10월
 - **개발 환경**: HTML, CSS  
 - **개발 목적**: 개인 프로젝트 수행력과 기술 역량을 보여줄 수 있는 포트폴리오 사이트 제작
 
-## ⚒️ 기술 스택
+## 기술 스택
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white)
@@ -22,7 +22,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)
 
-## 🎯 주요 기능 
+## 주요 기능 
 
 ### 📐 반응형 웹 디자인
 
@@ -41,7 +41,7 @@
 - 코드 내 주석 추가로 이해도 증대
 - carousel 및 modal 기능의 재사용성 확보
 
-## 💎 핵심 기능
+## 핵심 기능
 
 ### 📌 Sticky contact button  
 
@@ -53,7 +53,7 @@
 - 모달 창을 통한 contact form 구현으로 페이지 전환 없이 사용자 응답 가능
 - smooth scrolling으로 부드러운 페이지 이동 가능
 
-## 🎬 프로젝트 실행 화면
+## 프로젝트 실행 화면
 ### 메인 페이지
 ![메인 페이지](mdImgs/img1.JPG)
 ### 커리어
@@ -69,7 +69,7 @@
 ### 모바일 버전
 ![모바일 버전](mdImgs/mobile.JPG)
 
-## 📝 회고 및 계획
+## 회고 및 계획
 
 - HTML과 CSS로는 기능 구현에 한계가 있음  
 - JavaScript를 활용해 보다 다양한 기능 개발 필요
